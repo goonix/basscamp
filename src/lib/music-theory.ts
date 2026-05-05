@@ -74,23 +74,22 @@ export function getScalePitchClasses(
 }
 
 /**
- * Returns the interval name (relative to a root) for a given pitch class,
- * or null if the pitch class is not in the provided scale pitch classes.
+ * Returns the interval name (e.g. "b3", "5", "R") for a pitch class within
+ * a scale, or null if the pitch class is not in the scale.
  *
- * Intervals are zero-indexed semitones from the root (0–11).
+ * @param intervals - semitone offsets from root for each scale degree
+ * @param intervalNames - parallel name array (e.g. ["R","2","b3","4","5","b7"])
  */
-export function getIntervalFromRoot(
+export function getScaleIntervalName(
   rootNote: string,
   pitchClass: number,
-  intervalNames: string[]
+  intervals: number[],
+  intervalNames: string[],
 ): string | null {
   const rootSemitone = noteNameToSemitone(rootNote);
-  const intervalIndex = ((pitchClass - rootSemitone) + 12) % 12;
-  // intervalNames is indexed by semitone position in the scale pattern
-  // We need to find which interval position this semitone maps to
-  const scaleIntervals = intervalNames.map((_, i) => i); // placeholder
-  void scaleIntervals;
-  return intervalNames[intervalIndex] ?? null;
+  const semitoneDistance = ((pitchClass - rootSemitone) + 12) % 12;
+  const idx = intervals.indexOf(semitoneDistance);
+  return idx >= 0 ? (intervalNames[idx] ?? null) : null;
 }
 
 /**

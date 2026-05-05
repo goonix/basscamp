@@ -2,11 +2,13 @@ import { describe, expect, it } from "vitest";
 import {
   getNoteAtFret,
   getScalePitchClasses,
+  getScaleIntervalName,
   getStringNotes,
   isRootNote,
   noteNameToSemitone,
   pitchClassToName,
   tuningToSemitones,
+  SCALES,
 } from "./music-theory";
 
 describe("pitchClassToName", () => {
@@ -130,5 +132,37 @@ describe("getStringNotes", () => {
   it("returns correct notes for A string through 5 frets", () => {
     const notes = getStringNotes("A", 5);
     expect(notes).toEqual(["A", "A#", "B", "C", "C#", "D"]);
+  });
+});
+
+describe("getScaleIntervalName", () => {
+  const { intervals, intervalNames } = SCALES["major"]!;
+
+  it("returns 'R' for the root note", () => {
+    // G is root; G pitch class = 7
+    expect(getScaleIntervalName("G", 7, intervals, intervalNames)).toBe("R");
+  });
+
+  it("returns correct interval names for major scale degrees", () => {
+    // A major: A=9, B=11, C#=1, D=2, E=4, F#=6, G#=8
+    const { intervals: maj, intervalNames: majNames } = SCALES["major"]!;
+    expect(getScaleIntervalName("A", 11, maj, majNames)).toBe("2");   // B
+    expect(getScaleIntervalName("A", 1,  maj, majNames)).toBe("3");   // C#
+    expect(getScaleIntervalName("A", 4,  maj, majNames)).toBe("5");   // E
+  });
+
+  it("returns null for notes outside the scale", () => {
+    // C# (pitch class 1) is not in G major (G=7, A=9, B=11, C=0, D=2, E=4, F#=6)
+    expect(getScaleIntervalName("G", 1, intervals, intervalNames)).toBeNull();
+  });
+
+  it("returns correct names for minor pentatonic", () => {
+    const { intervals: pent, intervalNames: pentNames } = SCALES["minor-pentatonic"]!;
+    // E minor pentatonic: E=4, G=7, A=9, B=11, D=2
+    expect(getScaleIntervalName("E", 4,  pent, pentNames)).toBe("R");
+    expect(getScaleIntervalName("E", 7,  pent, pentNames)).toBe("b3");
+    expect(getScaleIntervalName("E", 9,  pent, pentNames)).toBe("4");
+    expect(getScaleIntervalName("E", 11, pent, pentNames)).toBe("5");
+    expect(getScaleIntervalName("E", 2,  pent, pentNames)).toBe("b7");
   });
 });
