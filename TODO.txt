@@ -1,0 +1,38 @@
+BASSCAMP - PHASE 2 TODO
+======================
+
+[x] STEP 1 - Deploy Supabase on Coolify
+[x] STEP 2 - Add nginx block for supabase.eponymous.net
+[x] STEP 3 - Run the database migration
+[x] STEP 4 - Wire up .env.local
+[x] STEP 5 - Smoke test
+    - No errors, app loads at localhost:5173
+
+PHASE 2 COMPLETE
+
+
+BASSCAMP - PHASE 3 TODO
+=======================
+
+Write curriculum content and matching drills for the first 3 modules.
+This content goes in curriculum/ and drills/ directories.
+
+[ ] MODULE 01 - The Fretboard: Notes, Strings, Navigation
+    - Write curriculum/mod-01-fretboard.md
+    - Write drills/mod01/mod01-drill-001-open-strings.json
+    - Write drills/mod01/mod01-drill-002-natural-notes-e-string.json
+    - Write drills/mod01/mod01-drill-003-octave-shapes.json
+
+[ ] MODULE 02 - Rhythm Fundamentals
+    - Write curriculum/mod-02-rhythm.md
+    - Write drills/mod02/mod02-drill-001-quarter-note-groove.json
+    - Write drills/mod02/mod02-drill-002-eighth-note-groove.json
+    - Write drills/mod02/mod02-drill-003-syncopation-intro.json
+
+[ ] MODULE 03 - Intervals: The Language of Distance
+    - Write curriculum/mod-03-intervals.md
+    - Write drills/mod03/mod03-drill-001-intervals-one-string.json
+    - Write drills/mod03/mod03-drill-002-perfect-fifth-shapes.json
+
+[ ] Write curriculum/index.json (module metadata catalog)
+[ ] Write drills/index.json (drill metadata catalog)
