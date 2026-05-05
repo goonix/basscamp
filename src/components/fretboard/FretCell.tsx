@@ -7,21 +7,18 @@ interface FretCellProps {
   label: string;
   variant: CellVariant;
   isOpenString: boolean;
+  stringIndex: number; // 0 = highest string (G), increasing toward lowest
 }
 
+// Higher strings are thinner/lighter; lower strings are thicker/darker.
+// Covers up to 5 strings; falls back to mid-gray beyond that.
 const STRING_COLORS = [
-  "border-gray-500",  // G (top, index 0 in display order)
-  "border-gray-600",
-  "border-gray-600",
-  "border-gray-500",  // E (bottom)
+  "border-gray-400",  // G (highest)
+  "border-gray-500",  // D
+  "border-gray-500",  // A
+  "border-gray-600",  // E
+  "border-gray-700",  // B (lowest, 5-string only)
 ];
-
-interface FretCellProps {
-  label: string;
-  variant: CellVariant;
-  isOpenString: boolean;
-  stringIndex: number; // 0 = G (top), 3 = E (bottom)
-}
 
 export function FretCell({ label, variant, isOpenString, stringIndex }: FretCellProps) {
   const stringColor = STRING_COLORS[stringIndex] ?? "border-gray-600";
@@ -31,10 +28,7 @@ export function FretCell({ label, variant, isOpenString, stringIndex }: FretCell
       className={`
         relative flex items-center justify-center
         w-12 h-12 shrink-0
-        ${isOpenString
-          ? "border-r-4 border-r-gray-400"
-          : `border-r border-r-gray-700`
-        }
+        ${isOpenString ? "border-r-4 border-r-gray-400" : "border-r border-r-gray-700"}
       `}
     >
       {/* String line running through the center */}
@@ -42,9 +36,7 @@ export function FretCell({ label, variant, isOpenString, stringIndex }: FretCell
 
       {/* Note marker (sits above string line) */}
       <div className="relative z-10">
-        {variant === "hidden" ? null : (
-          <NoteMarker label={label} variant={variant} />
-        )}
+        {variant !== "hidden" && <NoteMarker label={label} variant={variant} />}
       </div>
     </div>
   );

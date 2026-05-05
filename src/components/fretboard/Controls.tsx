@@ -25,8 +25,8 @@ const selectClass =
 
 export function Controls() {
   const {
-    rootNote, highlightMode, highlightScale, fretCount,
-    setRootNote, setHighlightMode, setHighlightScale, setFretCount,
+    rootNote, highlightMode, highlightScale, fretCount, stringCount,
+    setRootNote, setHighlightMode, setHighlightScale, setFretCount, setStringCount,
   } = useFretboardStore();
 
   const needsRoot = highlightMode !== "none";
@@ -108,6 +108,27 @@ export function Controls() {
             </option>
           ))}
         </select>
+      </div>
+
+      <div className="flex flex-col gap-1">
+        <label className="text-xs text-gray-500 font-medium uppercase tracking-wider">
+          Strings
+        </label>
+        <div className="flex rounded-md border border-gray-700 overflow-hidden">
+          {([4, 5] as const).map((count) => (
+            <button
+              key={count}
+              onClick={() => setStringCount(count)}
+              className={`px-3 py-1.5 text-sm font-medium transition-colors cursor-pointer ${
+                stringCount === count
+                  ? "bg-violet-600 text-white"
+                  : "bg-gray-900 text-gray-400 hover:text-gray-200 hover:bg-gray-800"
+              }`}
+            >
+              {count}
+            </button>
+          ))}
+        </div>
       </div>
     </div>
   );
