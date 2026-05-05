@@ -1,0 +1,98 @@
+[
+  {
+    "id": "mod01-drill-001",
+    "title": "Open Strings — Names and Sound",
+    "moduleId": "mod-01",
+    "skillLevel": "beginner",
+    "genre": ["general"],
+    "technique": ["fingerstyle"],
+    "topics": ["open strings", "tuning", "string names"],
+    "bpm": 60,
+    "timeSignature": "4/4",
+    "description": "Play each open string in turn, saying the note name out loud as you pluck. The goal is to connect the physical string to its name and sound."
+  },
+  {
+    "id": "mod01-drill-002",
+    "title": "Natural Notes — E String",
+    "moduleId": "mod-01",
+    "skillLevel": "beginner",
+    "genre": ["general"],
+    "technique": ["fingerstyle"],
+    "topics": ["natural notes", "E string", "fretboard navigation"],
+    "bpm": 60,
+    "timeSignature": "4/4",
+    "description": "Play every natural note on the E string from open to fret 12, naming each note out loud. Then descend back to open."
+  },
+  {
+    "id": "mod01-drill-003",
+    "title": "Octave Shapes",
+    "moduleId": "mod-01",
+    "skillLevel": "beginner",
+    "genre": ["general", "rock", "pop"],
+    "technique": ["fingerstyle"],
+    "topics": ["octaves", "shapes", "fretboard navigation"],
+    "bpm": 70,
+    "timeSignature": "4/4",
+    "description": "Practice the octave shape — two strings up, two frets forward — moving through the natural notes on the E and A strings."
+  },
+  {
+    "id": "mod02-drill-001",
+    "title": "Quarter-Note Root Groove",
+    "moduleId": "mod-02",
+    "skillLevel": "beginner",
+    "genre": ["general", "rock"],
+    "technique": ["fingerstyle", "groove"],
+    "topics": ["quarter notes", "roots", "locking with kick"],
+    "bpm": 80,
+    "timeSignature": "4/4",
+    "description": "Play roots on every quarter note and lock with the kick drum. Four notes per measure, even volume, steady time."
+  },
+  {
+    "id": "mod02-drill-002",
+    "title": "Eighth-Note Root Groove",
+    "moduleId": "mod-02",
+    "skillLevel": "beginner",
+    "genre": ["rock", "pop", "general"],
+    "technique": ["fingerstyle", "groove"],
+    "topics": ["eighth notes", "counting", "roots", "alternate picking"],
+    "bpm": 80,
+    "timeSignature": "4/4",
+    "description": "Play roots on every eighth note, counting '1-and-2-and-3-and-4-and' out loud. The workhorse rhythm of rock and pop bass."
+  },
+  {
+    "id": "mod02-drill-003",
+    "title": "Syncopation Introduction — The Anticipated Downbeat",
+    "moduleId": "mod-02",
+    "skillLevel": "beginner",
+    "genre": ["funk", "rnb", "soul"],
+    "technique": ["fingerstyle", "groove"],
+    "topics": ["syncopation", "eighth notes", "anticipation", "off-beats"],
+    "bpm": 75,
+    "timeSignature": "4/4",
+    "description": "Play a simple syncopated pattern where beat 3 is anticipated — the note lands on the 'and of 2'. Foundation of funk and R&B feel."
+  },
+  {
+    "id": "mod03-drill-001",
+    "title": "Intervals on One String",
+    "moduleId": "mod-03",
+    "skillLevel": "beginner",
+    "genre": ["general"],
+    "technique": ["fingerstyle"],
+    "topics": ["intervals", "half steps", "whole steps", "fretboard navigation"],
+    "bpm": 60,
+    "timeSignature": "4/4",
+    "description": "Play the root and each interval above it on the same string, naming the interval out loud."
+  },
+  {
+    "id": "mod03-drill-002",
+    "title": "Perfect Fifth Shapes",
+    "moduleId": "mod-03",
+    "skillLevel": "beginner",
+    "genre": ["rock", "pop", "general"],
+    "technique": ["fingerstyle", "groove"],
+    "topics": ["perfect fifth", "intervals", "shapes", "root-five"],
+    "bpm": 80,
+    "timeSignature": "4/4",
+    "description": "Practice the perfect fifth shape across all string pairs, moving through common root notes. The foundation of root-fifth bass lines."
+  }
+]

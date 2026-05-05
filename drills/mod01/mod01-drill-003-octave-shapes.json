@@ -1,0 +1,41 @@
+{
+  "id": "mod01-drill-003",
+  "title": "Octave Shapes",
+  "moduleId": "mod-01",
+  "skillLevel": "beginner",
+  "genre": ["general", "rock", "pop"],
+  "technique": ["fingerstyle"],
+  "topics": ["octaves", "shapes", "fretboard navigation"],
+  "bpm": 70,
+  "timeSignature": "4/4",
+  "description": "Practice the octave shape — two strings up, two frets forward — moving through the natural notes on the E and A strings. Playing root-to-octave patterns is a fundamental bass technique used in rock, pop, and soul.",
+  "instructions": [
+    "Set a metronome to 70 BPM.",
+    "Start on E at fret 0 on the E string. Its octave is at fret 2 on the D string.",
+    "Play root on beat 1, octave on beat 3. Let each note ring for 2 beats.",
+    "Move to the next root note and repeat.",
+    "Work through: E (open), A (fret 5 on E string), D (fret 10 on E string).",
+    "Then try starting from the A string: A (open), D (fret 5), G (fret 10).",
+    "Say both note names out loud: 'E... E-octave... A... A-octave...'"
+  ],
+  "tab": [
+    {
+      "label": "Octave shape — roots on E string",
+      "content": "G  |----------------|----------------|----------------|\nD  |--2---------2---|--7---------7---|--12--------12--|\nA  |----------------|----------------|----------------|\nE  |--0---------0---|--5---------5---|--10--------10--|\n    E     E8th        A     A8th       D      D8th\n    1  2  3  4        1  2  3  4       1  2   3   4"
+    },
+    {
+      "label": "Octave shape — roots on A string",
+      "content": "G  |--2---------2---|--7---------7---|\nD  |----------------|----------------|\nA  |--0---------0---|--5---------5---|\nE  |----------------|----------------|\n    A     A8th        D     D8th\n    1  2  3  4        1  2  3  4"
+    }
+  ],
+  "variations": [
+    {
+      "label": "Musical: play root-octave-root-octave as a 16th-note pattern",
+      "tab": {
+        "label": "Root-octave groove",
+        "content": "G  |----------------|----------------|--2-2-2-2-------|\nD  |--2-2-2-2-------|--7-7-7-7-------|----------------|\nA  |----------------|----------------|--0-0-0-0-------|\nE  |--0-0-0-0-------|--5-5-5-5-------|----------------|\n    E               A                D"
+      }
+    }
+  ],
+  "ensembleNotes": "The root-octave pattern is everywhere in rock and pop — listen to almost any Motown bassline or classic rock track and you'll hear it. It works because it reinforces the root note (telling everyone what chord is happening) while adding rhythmic movement."
+}

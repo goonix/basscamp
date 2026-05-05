@@ -1,0 +1,43 @@
+{
+  "id": "mod02-drill-002",
+  "title": "Eighth-Note Root Groove",
+  "moduleId": "mod-02",
+  "skillLevel": "beginner",
+  "genre": ["rock", "pop", "general"],
+  "technique": ["fingerstyle", "groove"],
+  "topics": ["eighth notes", "counting", "roots", "alternate picking"],
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "description": "Play roots on every eighth note — twice as many notes per beat as the quarter-note groove. Count '1-and-2-and-3-and-4-and' out loud while you play. This pattern drives rock and pop bass lines.",
+  "instructions": [
+    "Set a metronome to 80 BPM.",
+    "Count out loud: '1-and-2-and-3-and-4-and' before you play a single note.",
+    "Play the A root (open A string) on every count — both the numbered beats and the 'ands'.",
+    "Alternate your plucking fingers (index, middle, index, middle) for even tone.",
+    "Tap your foot on 1-2-3-4 only (the quarter note pulse), while your hand plays the eighths. This split coordination is essential.",
+    "Stay relaxed — tension is the enemy of groove."
+  ],
+  "tab": [
+    {
+      "label": "A root — eighth notes, 2 measures",
+      "content": "G  |----------------|----------------|\nD  |----------------|----------------|\nA  |--0-0-0-0-0-0-0-0|--0-0-0-0-0-0-0-0|\nE  |----------------|----------------|\n    1 + 2 + 3 + 4 +  1 + 2 + 3 + 4 +"
+    }
+  ],
+  "variations": [
+    {
+      "label": "Musical: mix quarter and eighth notes — quarters on 1 and 3, eighths on 2 and 4",
+      "tab": {
+        "label": "Mixed rhythmic feel",
+        "content": "G  |----------------|----------------|\nD  |----------------|----------------|\nA  |--0---0-0-0---0-0-0|--0---0-0-0---0-0-0|\nE  |----------------|----------------|\n    1   2 + 3   4 +  1   2 + 3   4 +"
+      }
+    },
+    {
+      "label": "Harder: eighth notes through I-IV-V in A",
+      "tab": {
+        "label": "I-IV-V eighth note groove",
+        "content": "G  |----------------|----------------|\nD  |----------------|--0-0-0-0-0-0-0-0|\nA  |--0-0-0-0-0-0-0-0|----------------|\nE  |----------------|----------------|\n    A (I)            D (IV)"
+      }
+    }
+  ],
+  "ensembleNotes": "Eighth-note bass lines are the workhorse of rock and pop. Listen to 'Come As You Are' (Nirvana), 'Seven Nation Army' (White Stripes), or virtually any Beatles bass line — straight eighth notes driving the song forward. Simple, but it has to be rock-solid."
+}

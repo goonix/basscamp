@@ -1,0 +1,36 @@
+{
+  "id": "mod02-drill-001",
+  "title": "Quarter-Note Root Groove",
+  "moduleId": "mod-02",
+  "skillLevel": "beginner",
+  "genre": ["general", "rock"],
+  "technique": ["fingerstyle", "groove"],
+  "topics": ["quarter notes", "roots", "locking with kick"],
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "description": "Play roots on every quarter note and lock with the kick drum. This is the most fundamental bass exercise — four notes per measure, even volume, steady time.",
+  "instructions": [
+    "Set a metronome to 80 BPM.",
+    "Play the A root note (fret 0 on the A string) on every beat: 1, 2, 3, 4.",
+    "Focus on even volume across all four beats — no note louder or softer than the others.",
+    "Tap your foot on every beat while you play. Your foot and your plucking hand should be perfectly synchronized.",
+    "Imagine beats 1 and 3 are the kick drum. Make those two notes feel slightly heavier.",
+    "Once solid at 80 BPM, try the I-IV-V variation below."
+  ],
+  "tab": [
+    {
+      "label": "A root — 4 measures",
+      "content": "G  |----------------|----------------|----------------|----------------|\nD  |----------------|----------------|----------------|----------------|\nA  |--0---0---0---0-|--0---0---0---0-|--0---0---0---0-|--0---0---0---0-|\nE  |----------------|----------------|----------------|----------------|\n    1   2   3   4    1   2   3   4    1   2   3   4    1   2   3   4"
+    }
+  ],
+  "variations": [
+    {
+      "label": "Move through I-IV-V in A (A-D-E): same quarter-note approach",
+      "tab": {
+        "label": "I-IV-V root movement in A",
+        "content": "G  |----------------|----------------|----------------|----------------|\nD  |----------------|--0---0---0---0-|----------------|----------------|\nA  |--0---0---0---0-|----------------|--0---0---0---0-|--0---0---0---0-|\nE  |----------------|----------------|--2---2---2---2-|----------------|\n    A (I)            D (IV)           E (V)            A (I)\n    1   2   3   4    1   2   3   4    1   2   3   4    1   2   3   4"
+      }
+    }
+  ],
+  "ensembleNotes": "In a band, this pattern under a guitarist strumming A major feels immediately musical. Your job here is to be invisible — steady, even, supportive. The guitarist and singer are the foreground; you are the foundation they stand on."
+}

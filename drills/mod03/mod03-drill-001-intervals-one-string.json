@@ -1,0 +1,40 @@
+{
+  "id": "mod03-drill-001",
+  "title": "Intervals on One String",
+  "moduleId": "mod-03",
+  "skillLevel": "beginner",
+  "genre": ["general"],
+  "technique": ["fingerstyle"],
+  "topics": ["intervals", "half steps", "whole steps", "fretboard navigation"],
+  "bpm": 60,
+  "timeSignature": "4/4",
+  "description": "Play the root and each interval above it on the same string, naming the interval out loud. This builds the connection between fret distance and interval quality.",
+  "instructions": [
+    "Set a metronome to 60 BPM.",
+    "Start on A at fret 5 on the E string (or open A string).",
+    "Play A, then play each interval above it ascending the string: A (root), A# (b2), B (2), C (b3), C# (3), D (4), D# (b5), E (5).",
+    "Say the interval name out loud as you play each note: 'root... minor second... major second...'",
+    "Don't try to memorize all 12 at once — focus on root, major 2nd, minor 3rd, major 3rd, perfect 4th, and perfect 5th first.",
+    "Then play the interval and try to identify it by ear before naming it."
+  ],
+  "tab": [
+    {
+      "label": "Intervals ascending from A (fret 5 on E string)",
+      "content": "G  |----------------------------|\nD  |----------------------------|\nA  |----------------------------|\nE  |--5--6--7--8--9--10--11--12-|\n    R  b2  2  b3  3   4  b5   5\n    A  Bb  B  C  C#   D  Eb   E"
+    },
+    {
+      "label": "Most important intervals — root, 3rd, 4th, 5th",
+      "content": "G  |----------------------------|\nD  |----------------------------|\nA  |----------------------------|\nE  |--5-----9----10----12-------|\n    R       3    4     5\n    A       C#   D     E"
+    }
+  ],
+  "variations": [
+    {
+      "label": "Ear training: play root, then a random interval — identify by sound before looking",
+      "tab": {
+        "label": "Interval identification drill",
+        "content": "G  |----------------------------|\nD  |----------------------------|\nA  |----------------------------|\nE  |--5----------9--------------|\n    A (root)     C# ← what interval is this? (major 3rd)"
+      }
+    }
+  ],
+  "ensembleNotes": "Knowing intervals by sound is how experienced musicians communicate quickly. When someone says 'go up a fourth from wherever you are', you need to hear that interval in your head and find it immediately. That skill takes months to develop — start now."
+}

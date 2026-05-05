@@ -1,0 +1,36 @@
+{
+  "id": "mod02-drill-003",
+  "title": "Syncopation Introduction — The Anticipated Downbeat",
+  "moduleId": "mod-02",
+  "skillLevel": "beginner",
+  "genre": ["funk", "rnb", "soul"],
+  "technique": ["fingerstyle", "groove"],
+  "topics": ["syncopation", "eighth notes", "anticipation", "off-beats"],
+  "bpm": 75,
+  "timeSignature": "4/4",
+  "description": "Play a simple syncopated pattern where beat 3 is anticipated — the note lands on the 'and of 2' instead of beat 3 itself. This push-pull feel is the foundation of funk, R&B, and soul bass lines.",
+  "instructions": [
+    "Set a metronome to 75 BPM — slower than usual because syncopation is harder to keep steady.",
+    "Count '1-and-2-and-3-and-4-and' out loud first, without playing.",
+    "The pattern: play on beat 1, skip beat 2, play on the 'and of 2', skip beat 3, play on beat 3, play on beat 4.",
+    "The note on the 'and of 2' is the syncopation — it 'anticipates' beat 3 by half a beat.",
+    "Keep your foot tapping steady quarter notes the whole time.",
+    "If you lose the count, stop and restart from beat 1. Don't try to find your place mid-measure."
+  ],
+  "tab": [
+    {
+      "label": "Anticipated beat 3 — A root",
+      "content": "G  |----------------|----------------|\nD  |----------------|----------------|\nA  |--0---0-0---0---|--0---0-0---0---|\nE  |----------------|----------------|\n    1   2+3   4       1   2+3   4\n    (the 'and of 2' anticipates beat 3)"
+    }
+  ],
+  "variations": [
+    {
+      "label": "Harder: anticipate beat 1 of the next measure (the 'and of 4')",
+      "tab": {
+        "label": "Anticipated downbeat — crosses the bar line",
+        "content": "G  |----------------|----------------|\nD  |----------------|----------------|\nA  |--0---0-0---0-0-|-(0)--0-0---0-0-|\nE  |----------------|----------------|\n    1   2+3   4+      1   2+3   4+\n    (note in parentheses is tied from previous measure)"
+      }
+    }
+  ],
+  "ensembleNotes": "Syncopation is what makes groove music feel like it's leaning forward — like it has momentum and push. The classic James Brown instruction to his band was 'on the one' — meaning lock beat 1 hard, then let the syncopation between beats create the groove. The downbeat is the anchor; the syncopation is the tension between anchors."
+}

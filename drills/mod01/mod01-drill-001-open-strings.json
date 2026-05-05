@@ -1,0 +1,36 @@
+{
+  "id": "mod01-drill-001",
+  "title": "Open Strings — Names and Sound",
+  "moduleId": "mod-01",
+  "skillLevel": "beginner",
+  "genre": ["general"],
+  "technique": ["fingerstyle"],
+  "topics": ["open strings", "tuning", "string names"],
+  "bpm": 60,
+  "timeSignature": "4/4",
+  "description": "Play each open string in turn, saying the note name out loud as you pluck. The goal is to connect the physical string to its name and sound.",
+  "instructions": [
+    "Set a metronome to 60 BPM.",
+    "Pluck the E string (lowest, thickest) on beat 1. Say 'E' out loud as you play it.",
+    "Let it ring for 4 beats, then pluck the A string. Say 'A'.",
+    "Continue to D, then G, saying each name out loud.",
+    "Reverse: G, D, A, E.",
+    "Repeat until you can name each string immediately without hesitating."
+  ],
+  "tab": [
+    {
+      "label": "Low to high, one per measure",
+      "content": "G  |--0-------------|--0-------------|\nD  |-----0----------|-----0----------|\nA  |--------0-------|--------0-------|\nE  |-----------0----|----------0-----|\n    E               G               D               A (reverse)"
+    }
+  ],
+  "variations": [
+    {
+      "label": "Harder: name the string before you pluck it",
+      "tab": {
+        "label": "Random order — point to a string, name it, then play",
+        "content": "G  |--0-----0-------|\nD  |-----0----------|\nA  |--------0---0---|\nE  |------------0---|\n    G   D   A   A   E  (example random order)"
+      }
+    }
+  ],
+  "ensembleNotes": "Knowing your string names instantly is table stakes for communicating with other musicians. When a guitarist says 'hit the G on beat 1', you need to know immediately which string and where without thinking."
+}

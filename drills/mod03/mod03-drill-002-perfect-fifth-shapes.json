@@ -1,0 +1,41 @@
+{
+  "id": "mod03-drill-002",
+  "title": "Perfect Fifth Shapes",
+  "moduleId": "mod-03",
+  "skillLevel": "beginner",
+  "genre": ["rock", "pop", "general"],
+  "technique": ["fingerstyle", "groove"],
+  "topics": ["perfect fifth", "intervals", "shapes", "root-five"],
+  "bpm": 80,
+  "timeSignature": "4/4",
+  "description": "Practice the perfect fifth shape across all string pairs, moving through common root notes. The root-fifth pattern is the single most common bass line in rock and pop.",
+  "instructions": [
+    "Set a metronome to 80 BPM.",
+    "The perfect fifth shape: root on one string, same fret + 2 frets on the next string up (skip no strings).",
+    "Start with E root (open E string). Its fifth is B at fret 2 on the A string.",
+    "Play: root on beat 1, fifth on beat 2, root on beat 3, fifth on beat 4.",
+    "Move to A root (open A string). Its fifth is E at fret 2 on the D string.",
+    "Move to D root (open D string). Its fifth is A at fret 2 on the G string.",
+    "Then try moveable shapes: G root (fret 3 on E string), fifth at fret 5 on A string."
+  ],
+  "tab": [
+    {
+      "label": "Root-fifth on E-A strings (E and A roots)",
+      "content": "G  |----------------|----------------|\nD  |----------------|--2---2---2---2-|\nA  |--2---2---2---2-|--0---0---0---0-|\nE  |--0---0---0---0-|----------------|\n    E  B  E  B        A  E  A  E\n    R  5  R  5        R  5  R  5"
+    },
+    {
+      "label": "Moveable root-fifth — G, C, D (common rock progression)",
+      "content": "G  |----------------|----------------|----------------|\nD  |----------------|--3---3---3---3-|--5---5---5---5-|\nA  |--5---5---5---5-|--2---2---2---2-|--3---3---3---3-|\nE  |--3---3---3---3-|----------------|----------------|\n    G  D  G  D        C  G  C  G       D  A  D  A\n    R  5  R  5        R  5  R  5       R  5  R  5"
+    }
+  ],
+  "variations": [
+    {
+      "label": "Musical: root-fifth-octave (adds the octave on the 'and of 2')",
+      "tab": {
+        "label": "Root-fifth-octave groove in A",
+        "content": "G  |--2-------------|--2-------------|\nD  |----2-----------|----2-----------|\nA  |--0-------------|--0-------------|\nE  |----------------|----------------|\n    A  E  A8          A  E  A8\n    1  2  2+           1  2  2+"
+      }
+    }
+  ],
+  "ensembleNotes": "The root-fifth pattern works universally because the fifth is harmonically neutral — it doesn't clash with whether the chord is major or minor. You can play root-fifth over any chord without worrying about whether to play a major or minor third. It's the safest, most supportive thing a bassist can do, and it sounds great."
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "mod-01",
+    "order": 1,
+    "title": "The Fretboard: Notes, Strings, and Navigation",
+    "slug": "fretboard-navigation",
+    "description": "Learn the layout of the bass fretboard — standard tuning, natural notes on every string, octave shapes, and how to find any note in multiple positions. Includes the bassist's role in an ensemble.",
+    "markdownPath": "curriculum/mod-01-fretboard.md",
+    "drillIds": ["mod01-drill-001", "mod01-drill-002", "mod01-drill-003"],
+    "learningGoals": [
+      "Name all four open strings instantly",
+      "Find all natural notes on the E and A strings up to fret 12",
+      "Use the octave shape to move between strings",
+      "Describe the bassist's role in a band"
+    ]
+  },
+  {
+    "id": "mod-02",
+    "order": 2,
+    "title": "Rhythm Fundamentals for Bass",
+    "slug": "rhythm-fundamentals",
+    "description": "The rhythmic building blocks every bassist needs: note values, time signatures, counting subdivisions, rests, and most importantly — how to lock with the kick drum.",
+    "markdownPath": "curriculum/mod-02-rhythm.md",
+    "drillIds": ["mod02-drill-001", "mod02-drill-002", "mod02-drill-003"],
+    "learningGoals": [
+      "Count quarter, eighth, and sixteenth note subdivisions out loud",
+      "Play a steady quarter-note root groove with a metronome",
+      "Play a steady eighth-note root groove with a metronome",
+      "Understand how the bass locks with the kick drum",
+      "Play a basic syncopated pattern"
+    ]
+  },
+  {
+    "id": "mod-03",
+    "order": 3,
+    "title": "Intervals: The Language of Distance",
+    "slug": "intervals",
+    "description": "Understand the 12 intervals, how they look on the fretboard (both on one string and across strings), how they sound, and why the perfect fourth and fifth are so central to bass playing.",
+    "markdownPath": "curriculum/mod-03-intervals.md",
+    "drillIds": ["mod03-drill-001", "mod03-drill-002"],
+    "learningGoals": [
+      "Name and count semitones for all 12 intervals",
+      "Find any interval from a given root on one string",
+      "Play the perfect fifth shape across all string pairs",
+      "Play a root-fifth groove over a I-IV-V progression"
+    ]
+  },
+  {
+    "id": "mod-04",
+    "order": 4,
+    "title": "The Major Scale and Diatonic Harmony",
+    "slug": "major-scale-diatonic-harmony",
+    "description": "The major scale formula, playing it in position and across strings, diatonic chords I–VII, Roman numeral notation, and the Nashville Number System.",
+    "markdownPath": "curriculum/mod-04-major-scale.md",
+    "drillIds": [],
+    "learningGoals": [
+      "Play the major scale in at least two positions",
+      "Name the diatonic chords in any major key",
+      "Read a simple chord chart using Roman numerals"
+    ]
+  },
+  {
+    "id": "mod-05",
+    "order": 5,
+    "title": "The Minor World: Natural, Pentatonic, and Blues",
+    "slug": "minor-world",
+    "description": "Natural minor scale, minor pentatonic, the blues scale, relative major/minor relationships, and how to navigate charts that mix major and minor chords.",
+    "markdownPath": "curriculum/mod-05-minor-world.md",
+    "drillIds": [],
+    "learningGoals": [
+      "Play the natural minor scale",
+      "Play the minor pentatonic box position",
+      "Play the blues scale and identify the blue note",
+      "Identify the relative minor of any major key"
+    ]
+  },
+  {
+    "id": "mod-06",
+    "order": 6,
+    "title": "Groove Architecture: Funk, R&B, and Rock",
+    "slug": "groove-architecture",
+    "description": "Root-fifth-octave patterns, chord tone outlining, 16th-note funk grooves, ghost notes, and the Motown eighth-note feel. How to support a vocalist and leave space for soloists.",
+    "markdownPath": "curriculum/mod-06-groove-architecture.md",
+    "drillIds": [],
+    "learningGoals": [
+      "Play a root-fifth-octave groove in any key",
+      "Play a 16th-note funk pattern with ghost notes",
+      "Outline chord tones over a I-IV-V progression",
+      "Play a Motown-style eighth-note bass line"
+    ]
+  },
+  {
+    "id": "mod-07",
+    "order": 7,
+    "title": "Walking Bass Lines: Jazz and Blues",
+    "slug": "walking-bass-lines",
+    "description": "The 12-bar blues, ii-V-I progressions, quarter-note walking bass principles, guide tones (3rds and 7ths), and chromatic approach notes. How to comp behind a soloist.",
+    "markdownPath": "curriculum/mod-07-walking-bass.md",
+    "drillIds": [],
+    "learningGoals": [
+      "Play a simple bass line over a 12-bar blues",
+      "Identify and play ii-V-I in at least two keys",
+      "Construct a 4-bar walking bass line using guide tones",
+      "Use chromatic approach notes to connect chord tones"
+    ]
+  }
+]
