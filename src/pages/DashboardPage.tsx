@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useSession } from "../hooks/useSession";
 import { useCurriculumStore } from "../store/curriculumStore";
+import { PracticeSnapshot } from "../components/dashboard/PracticeSnapshot";
 import { Card } from "../components/ui/Card";
 import { Badge } from "../components/ui/Badge";
 
@@ -13,16 +14,20 @@ export function DashboardPage() {
     <div className="space-y-10">
       <div>
         <h1 className="text-3xl font-bold text-gray-100">
-          {session ? `Welcome back` : `Welcome to Basscamp`}
+          {session ? "Welcome back" : "Welcome to Basscamp"}
         </h1>
         <p className="text-gray-400 mt-2">
           Music theory for bass — applied, practical, and genre-aware.
         </p>
       </div>
 
+      {/* Practice snapshot (authenticated only) */}
+      {session && <PracticeSnapshot />}
+
+      {/* Curriculum */}
       <section>
         <h2 className="text-lg font-semibold text-gray-200 mb-4">
-          Start Learning
+          {session ? "Continue learning" : "Start learning"}
         </h2>
         <div className="grid gap-4 sm:grid-cols-3">
           {firstThree.map((mod) => (
@@ -46,20 +51,31 @@ export function DashboardPage() {
             to="/curriculum"
             className="text-sm text-violet-400 hover:text-violet-300"
           >
-            View all modules →
+            View all 7 modules →
           </Link>
         </div>
       </section>
 
+      {/* Quick links */}
       <section>
-        <h2 className="text-lg font-semibold text-gray-200 mb-4">
-          Quick Links
-        </h2>
+        <h2 className="text-lg font-semibold text-gray-200 mb-4">Quick access</h2>
         <div className="grid gap-3 sm:grid-cols-3">
           {[
-            { to: "/drills", label: "Drill Browser", desc: "Browse and filter exercises by genre and technique" },
-            { to: "/fretboard", label: "Fretboard Visualizer", desc: "Explore scales and intervals on the neck" },
-            { to: "/reference", label: "Theory Reference", desc: "Scales, intervals, and chord tone charts" },
+            {
+              to: "/drills",
+              label: "Drill Browser",
+              desc: "Filter exercises by genre, technique, and skill level",
+            },
+            {
+              to: "/fretboard",
+              label: "Fretboard Visualizer",
+              desc: "Explore scales and intervals across the neck interactively",
+            },
+            {
+              to: "/reference",
+              label: "Theory Reference",
+              desc: "Intervals, scales, and chord tones in any key",
+            },
           ].map(({ to, label, desc }) => (
             <Link key={to} to={to}>
               <Card hover className="p-5 h-full">
@@ -71,23 +87,18 @@ export function DashboardPage() {
         </div>
       </section>
 
+      {/* Sign-in CTA (unauthenticated only) */}
       {!session && (
         <section className="bg-gray-900 border border-gray-800 rounded-lg p-6">
           <p className="text-gray-300 font-medium">Track your progress</p>
           <p className="text-gray-500 text-sm mt-1">
             Sign in to log practice sessions, mark drills complete, and track your streak.
           </p>
-          <div className="flex gap-3 mt-4">
-            <Link
-              to="/login"
-              className="text-sm text-violet-400 hover:text-violet-300"
-            >
+          <div className="flex gap-4 mt-4">
+            <Link to="/login" className="text-sm text-violet-400 hover:text-violet-300">
               Sign in →
             </Link>
-            <Link
-              to="/signup"
-              className="text-sm text-gray-400 hover:text-gray-300"
-            >
+            <Link to="/signup" className="text-sm text-gray-400 hover:text-gray-300">
               Create account →
             </Link>
           </div>
